@@ -4,7 +4,11 @@ PHP-Name-Parser For Laravel 5
 PHP library to split names into their respective components.  Besides detecting first and last names, this library attempts to handle prefixes, suffixes, initials and compound last names like "Von Fange".  It also normalizes prefixes (Mister -> Mr.) and fixes capitalization (JOHN SMITH -> John Smith).
 
 **Usage:**
+Enter command
 
+```js
+"composer require naviocean/laravel-nameparser:dev-master"
+```
 
 **Results:**
 
