@@ -1,0 +1,28 @@
+{
+    "name": "naviocean/laravel-nameparser",
+    "description": "PHP library to split names into their respective components. Besides detecting first and last names, this library attempts to handle prefixes, suffixes, initials and compound last names like 'Von Fange'. It also normalizes prefixes (Mister -> Mr.) and fixes capitalization (JOHN SMITH -> John Smith).",
+    "keywords": ["php-parse-name","name parser laravel 5","php-nameparser"],
+    "homepage": "https://github.com/naviocean/laravel-nameparser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NaviOcean",
+            "email": "navi.ocean@outlook.com",
+            "homepage": "http://naviocean.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "5.x",
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "NaviOcean\\Laravel": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
